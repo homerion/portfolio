@@ -9,15 +9,22 @@ nav{
       padding: 0px;
       padding-bottom: 10px;
 
-
 }
 nav ul{
     background-color: #9de19a;
-    padding: 0px;
+    padding-left:  0px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+
 }
 nav ul li  {
       display: inline;
-      margin: 30px;
+      padding-top: 15px;
+      padding-bottom: 10px;
+      padding-left: 20px;
+      padding-right: 20px;
+      font-size: 30px;;
+
 }
 ul {
     list-style-type: none;
@@ -28,31 +35,58 @@ a {
     color: black;
     text-decoration: none;
 }
+#find_me{
+  border-bottom-style: solid;
+  border-color: black;
+}
+h1, main{
+  padding-left: 50px;
+}
 
-
+aside{
+      float: right;
+    position: relative;
+    bottom: 25px;
+}
 aside ul{
-    float: right;
     text-align: center;
 
     background-color: #98a7f2;
 
-    padding: 2px;
+    padding: 6px;
 
 
 }
-aside a{
-
+aside li{
+  padding: 5px;
 }
 main {
     max-width: 60%;
 
   }
-nav a:hover, aside a li:hover {
+nav li:hover{
     background-color: #bca9e1;
+    border: 1px;
+    border-right-style: solid;
+    border-color: black;
+}
+aside a li:hover{
+  background-color: #bca9e1;
+  border: 1px;
+  border-left-style: solid;
+  border-color: black;
 }
 
 figure{
-border: solid;
+  height: 278px;
+}
+figcaption{
+  margin: 15px;
+  position: relative;
+  bottom: 100px;
+  left: 200px;
+  display: block;
+  width: 300px;
 }
 code{
 
