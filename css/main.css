@@ -57,6 +57,7 @@ aside ul{
 
 
 }
+
 aside li{
   padding: 5px;
 }
@@ -88,8 +89,19 @@ figcaption{
   display: block;
   width: 300px;
 }
-code{
+article{
+  max-width: 40%;
+  margin: 3px;
+  margin-left: 5%;
+  border: solid;
+  border-color: darkslategrey;
+  padding: 6px;
 
+}
+pre{
+padding: 6px;
+border: solid;
+border-color: dimgrey;
 }
 .one{
   position: relative;
