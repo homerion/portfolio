@@ -1,33 +1,36 @@
 body{
 background-color: #a4c5ea;
-/* overflow-x: hidden;
-/* this is a bad hack in case */
-
+margin: 0px;
 }
 
 nav{
-      background-color: #9de19a;
+    margin: 0px;
       z-index: 1;
-      padding: 20px;
+      padding: 0px;
       padding-bottom: 10px;
 
 
 }
+nav ul{
+    background-color: #9de19a;
+    padding: 0px;
+}
 nav ul li  {
       display: inline;
+      margin: 30px;
 }
 ul {
     list-style-type: none;
     margin-top: 0px;
 }
 
- a {
-    padding: 8px;
+a {
     color: black;
     text-decoration: none;
 }
 
-aside{
+
+aside ul{
     float: right;
     text-align: center;
 
@@ -44,9 +47,10 @@ main {
     max-width: 60%;
 
   }
-a li:hover {
+nav a:hover, aside a li:hover {
     background-color: #bca9e1;
 }
+
 figure{
 border: solid;
 }
@@ -81,9 +85,6 @@ width: 20%;
 
 footer{
 text-align: center;
-
-
-
   margin-top: 100px;
   height: 40px;
 }
