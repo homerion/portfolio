@@ -1,0 +1,89 @@
+body{
+background-color: #a4c5ea;
+/* overflow-x: hidden;
+/* this is a bad hack in case */
+
+}
+
+nav{
+      background-color: #9de19a;
+      z-index: 1;
+      padding: 20px;
+      padding-bottom: 10px;
+
+
+}
+nav ul li  {
+      display: inline;
+}
+ul {
+    list-style-type: none;
+    margin-top: 0px;
+}
+
+ a {
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+aside{
+    float: right;
+    text-align: center;
+
+    background-color: #98a7f2;
+
+    padding: 2px;
+
+
+}
+aside a{
+
+}
+main {
+    max-width: 60%;
+
+  }
+a li:hover {
+    background-color: #bca9e1;
+}
+figure{
+border: solid;
+}
+code{
+
+}
+.one{
+  position: relative;
+  left: 10px;
+}
+.two{
+  position: relative;
+  left: 30px;
+}
+.three{
+  position: relative;
+  left: 50px;
+}
+.four{
+  position: relative;
+  left: 70px;
+}
+.five{
+  position: relative;
+  left: 90px;
+}
+
+img {
+width: 20%;
+
+}
+
+footer{
+text-align: center;
+
+
+
+  margin-top: 100px;
+  height: 40px;
+}
