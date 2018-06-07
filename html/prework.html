@@ -4,53 +4,95 @@
 <title>Coding Temple Prework Python</title>
 </head>
 <body>
-  <nav>
-  <ul>
-  <a href="../index.html"><li>Home</li></a>
-  <a href="#"><li>Prework</li></a>
-  <a href="#"><li>Projects</li></a>
-  </ul>
-  </nav>
-  <article class="programs">
-  <h3>Question 1</h3>
-  Write a function to print "hello_USERNAME!"
-  USERNAME is the input of the function.
-  <pre>
-    <code>
+  <!-- star of nav -->
+  <div class="row">
+    <div class="col-md-12">
+      <header>
+        <nav class="navbar navbar-expand-sm bg-dar">
+
+          <!-- Links -->
+          <ul class="navbar-nav offset-md-1">
+
+            <a class="nav-link" href="../index.html">
+              <li class="nav-item">
+              Home
+              </li>
+            </a>
+
+            <a class="nav-link" href="#">
+              <li class="nav-item">
+              Prework
+              </li>
+            </a>
+            <a class="nav-link" href="#">
+              <li class="nav-item">
+                Projects
+              </li>
+            </a>
+          </ul>
+
+
+        </nav>
+      </header>
+    </div>
+    <!-- end col for nav -->
+  </div>
+  <!-- end row for nav -->
+  <div class="row">
+<div class="card-columns">
+    <div class="card">
+      <h3 class="cardtitle">Question 1</h3>
+      <p class="card-text">
+      Write a function to print "hello_USERNAME!"
+      USERNAME is the input of the function.
+    </p>
+      <pre>
+        <code>
 def hello_name(n):
   n=str(n)
   print('"hello_'+n+'!"')
-    </code>
-  </pre>
-  </article>
-  <article class="programs">
-  <h3>Question 2</h3>
-  Print the first 100 odd numbers in Python.
-  <pre>
-    <code>
+        </code>
+      </pre>
+    </div>
+    <!-- end of the first card -->
+    <div class="card">
+      <h3 class="cardtitle">Question 2</h3>
+      <p class="card-text">
+      Print the first 100 odd numbers in Python.
+      <pre>
+        <code>
 for i in range(1,200,2):
   print(i)
-    </code>
-  </pre>
-  </article>
-  <article class="programs">
-  <h3>Question 3</h3>
-  Please write a Python function,
-  max_num_in_list to return the max number of a given list.
-  The first line of the code has been defined as below.
-   <pre>
-    <code>
-def max_num_in_list(li):
-  maximum=li[0]
-  for i in li:
-    if i>maximum:
-    maximum=i
-  return maximum
-    </code>
-    </pre>
-    </article>
-  <article class="programs">
-  <h3>Question 4</h3>
+        </code>
+      </pre>
+    </div>
+    <!-- end of the second card -->
+    <div class="card">
+      <h3 class="cardtitle">Question 3</h3>
+      <p class="card-text">
+      Please write a Python function,
+      max_num_in_list to return the max number of a given list.
+      The first line of the code has been defined as below.
+       <pre>
+        <code>
+    def max_num_in_list(li):
+      maximum=li[0]
+      for i in li:
+        if i>maximum:
+        maximum=i
+      return maximum
+        </code>
+        </pre>
+        </article>
+    </div>
+    <!-- end of the third card -->
+
+
+
+
+    <div class="card">
+      <h3 class="cardtitle">Question 4</h3>
+      <p class="card-text">
   Write a function to return if the given year is a leap year.
   A leap year is divisible by 4, but not divisible by 100,
   unless it is also divisible by 400.
@@ -70,8 +112,11 @@ def is_leap_year(y):
     return False
     </code>
     </pre>
-  </article>
-  <article class="programs">
+  </card>
+  <!-- end of the fourth card -->
+  <div class="card">
+    <h3 class="cardtitle">Question 5</h3>
+    <p class="card-text">
   <h3>Question 5</h3>
   Write a function to check to see if all numbers in list
   are consecutive numbers. For example, [2,3,4,5,6,7] are
@@ -92,11 +137,29 @@ def is_consecutive(a):
       return False
     </code>
     </pre>
-    </article>
-
+  </div>
+  <!-- end of the fifth card -->
+</div>
+<!-- end of the card column -->
+</div>
+<!-- ends the body row -->
 </body>
-<footer>
-  This website does not use cookies.	&copy; Daniel Homer 2018
+<div class="row">
+<div class="col-md-12">
+    <footer>
+    This website does not use cookies.	&copy; Daniel Homer 2018
 </footer>
+</div>
+</div>
+
+
+  <!-- Bootstrap 4.1.0 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <!-- JQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <!-- AJAX CDN -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <!-- Bootstrap JS CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="../css/main.css">
 </html>
