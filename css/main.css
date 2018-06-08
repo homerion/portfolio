@@ -88,9 +88,12 @@ padding: 6px;
 border: solid;
 border-color: dimgrey;
 }
+.card-columns{
+  padding: 3px 20px;
+}
 .card{
   background-color: #a4c5ea;
-
+  padding: 10px;
 }
 
 
